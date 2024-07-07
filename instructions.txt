@@ -1,0 +1,32 @@
+spring boot crud
+
+open eclipse
+
+file -> new starter project -> {
+    service URL = https://start.spring.io
+    Name = springboot-backend
+    type = Maven
+    Java Version = 8
+    Language = Java
+    group = net.javaguids
+    package = net.javaguids.springboot
+} -> next ->{
+lates version = 2.3.1 
+available = spring Web, 
+spring Data JPA, 
+MYSQL Driver,
+Spring Boot DevTools,
+} -> open mysql bench ->
+create database employee_management_system
+-> refresh -> src/main/resources-> applicatoin_properties->{
+    spring.datasource.url=jdbc:mysql://localhost:3306/employee_management_system?useSSL=false
+    spring.datasource.username=root
+    spring.datasource.password=root
+
+    spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySWL5InnoDBDialect
+
+    spring.jpa.hibernate.ddl-auto = update
+} -> src/main/java/ click on net.jabaguids.springboot right click new package -> add .model
+add another package add .controller
+add another package add .repository
+add another package add .exception
