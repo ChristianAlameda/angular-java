@@ -32,3 +32,6 @@ create database employee_management_system
 add another package add .controller
 add another package add .repository
 add another package add .exception
+
+
+added dependency for web
