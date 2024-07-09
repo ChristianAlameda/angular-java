@@ -1,4 +1,8 @@
 https://start.spring.io/
+https://www.bezkoder.com/spring-boot-angular-17-mysql/
+https://www.bezkoder.com/spring-boot-jpa-crud-rest-api/
+https://www.bezkoder.com/angular-17-crud-example/
+
 
 spring boot crud
 
