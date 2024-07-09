@@ -1,6 +1,5 @@
+// package com.bezkoder.spring.datajpa.model;
 package model;
-
-package com.bezkoder.spring.datajpa.model;
 
 import jakarta.persistence.*;
 
